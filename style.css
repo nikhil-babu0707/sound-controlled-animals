@@ -1,0 +1,39 @@
+body {
+    font-family: 'Waterfall', cursive;
+    background-color: antiquewhite;
+}
+
+.header_div {
+    background: white;
+    color: crimson;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header_div p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.main_div button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: aliceblue;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb (151, 149, 149);
+}

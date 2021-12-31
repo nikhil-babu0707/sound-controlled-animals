@@ -19,9 +19,9 @@ function gotResults(error, results) {
         var g = Math.floor(Math.random() * 255) + 1;
         var b = Math.floor(Math.random() * 255) + 1;
         document.getElementById("result_label").innerHTML = "detected voice is of - " + results[0].label;
-        document.getElementById("result_count").innerHTML = 'detected number of dogs - ' + dog + 'detected number of cats - ' + cat;
+        document.getElementById("result_counts").innerHTML = 'detected number of dogs - ' + dog + 'detected number of cats - ' + cat;
         document.getElementById("result_label").style.color = "rgb(" + r + "," + g + "," + b + ")";
-        document.getElementById("result_count").style.color = "rgb(" + r + "," + g + "," + b + ")";
+        document.getElementById("result_counts").style.color = "rgb(" + r + "," + g + "," + b + ")";
         img1 = document.getElementById("imag");
         if (results[0].label == "cat") {
             img1.src = "meow.gif";
